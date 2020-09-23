@@ -1,0 +1,74 @@
+﻿
+/*登录*/
+.m_mask { width:100%; height:100%; position: fixed; left:0; top:0; z-index:1999; background:black; filter:alpha(opacity:0); opacity:0; display:none;}
+.m_mask_show { display:block; }
+
+.m_login{ width:510px; height:400px;  background: url(../images/w_hjy/loginbg.png) repeat;  zoom:1; position:fixed; _position:aboslute; left:50%; top:0;margin-left:-255px; margin-top:-203px; z-index:2000;filter:alpha(opacity:0); opacity:0;display:none;}
+.m_login_show {  display:block;}
+
+.m_login .item-newLogo-rect{ position:relative; top:0px; right:0px;padding:50px 88px 30px 88px;}
+.m_login .m_close{ display:none;  position:absolute; top:0px; right:-43px; background:url(../images/w_hjy/loginbg.png) repeat; width:43px; height:42px; text-indent:-9999px; cursor:pointer;}
+.m_login .m_close span{background: url(../images/w_hjy/err_close.png) no-repeat; display:block; width:24px; height:24px; margin:9px 0 0 10px;}
+.m_login .m_close span:hover{ background-position:0 -47px;}
+
+.m_login h4{ font-size:25px; line-height:25px; padding-bottom:8px; font-weight:normal; color:#fff;}
+.m_login .passWord-case .inputlist li{ width:332px; height:44px; border-radius:5px; border:#383838 solid 2px; background:#fff; margin-top:20px;}
+.m_login .passWord-case .inputlist li.acitve{ border-color:#15ae4d;}
+.m_login .passWord-case .inputlist li.u_inputtext{ background:url(../images/w_hjy/logo_ico1.png) no-repeat left top #fff;}
+.m_login .passWord-case .inputlist li.u_inputpassword{ background:url(../images/w_hjy/logo_ico2.png) no-repeat left top #fff;}
+.m_login .passWord-case .inputlist li.u_inputtext.acitve{background:url(../images/w_hjy/logo_ico1_1.png) no-repeat left top #fff;}
+.m_login .passWord-case .inputlist li.u_inputpassword.acitve{ background:url(../images/w_hjy/logo_ico2_1.png) no-repeat left top #fff;}
+.m_login .passWord-case .inputlist li input{ float:left; width:250px; line-height:42px; height:42px; margin:0 0px 0px 68px; border:0px; font-size:14px; background:none;}
+
+.m_login .passWord-case .test_code{ margin-top:20px;}
+.m_login .passWord-case .test_code input{float:left; width:180px; padding:0 10px; line-height:42px; height:42px; border-radius:5px; border:#383838 solid 2px; background:#fff;}
+.m_login .passWord-case .test_code .codeimg{float:right; width:112px; height:42px; margin-top:2px; margin-left:10px;}
+.m_login .passWord-case .test_code img{ display:block; width:112px; height:42px;}
+.m_login .passWord-case .test_code.acitve input{ border-color:#15ae4d;}
+
+.m_login .passWord-case .login_other_rect{ height:24px; line-height:24px; margin-top:15px;}
+.m_login .passWord-case .m_btn{ display:block; width:100%; height:50px; text-align:center; line-height:50px; background:#15ae4d; font-size:22px; color:#fff; border-radius:5px; border:0px; cursor:pointer; margin-top:15px;}
+.m_login .passWord-case  .m_btn:hover{ background:#129441;}
+
+.m_login .passWord-case .no_account{ padding-top:26px; text-align:center; color:#888; font-size:12px;}
+.m_login .passWord-case .no_account a{ color:#ff8400;  }
+.m_login .passWord-case .no_account a.a1{margin:0 24px 0 5px;}
+
+.m_login .passWord-case .rememberMe{color:#888;}
+.m_login .passWord-case .rememberMe p{ width:40px; height:24px; border-radius:12px;  margin-right:7px; cursor:pointer; background:#454444;}
+.m_login .passWord-case .rememberMe p.on{ background:#15ae4d;-webkit-transition:all .5s ease;-ms-transition:all .5s ease;-moz-transition:all .5s ease; transition:all .5s ease; }
+.m_login .passWord-case .rememberMe span{ float:right; width:20px; height:20px; border-radius:11px; background:#fff; margin:2px 17px 0px 0px;}
+.m_login .passWord-case .forget{ margin-left:31px; color:#888;}
+
+.m_login .passWord-case .err-tips{ position:absolute; top:50px; left:88px; height:30px; border:#ffc3b9 solid 1px; line-height:30px; color:#555; background:#fef2f2; width:332px; }
+.m_login .passWord-case .err-tips .ico{ background:url(../images/w_hjy/error_ico1.gif) no-repeat left top; width:18px; height:18px; vertical-align:middle; margin:0 13px; display:inline-block; margin-top:-3px;}
+.m_login .passWord-case .err-tips .close{ background:url(../images/w_hjy/error_ico2.gif) no-repeat; width:13px; height:14px; margin:8px 14px 0px 0px; cursor:pointer;}
+.m_login .passWord-case .err-tips .close:hover{ background-image:url(../images/w_hjy/error_ico2_2.gif);}
+
+
+.m_login .logoTips{ background:#303030; line-height:27px; border:#383838 solid 1px; color:#a7a7a7; padding:0px 6px 0px 9px; position:absolute; top:10px; right:67px;}
+.m_login .logoTips .ico1{ background:url(../images/w_hjy/logo_tips_ico1.png) no-repeat; width:14px; height:18px; vertical-align:middle; margin-right:7px; display:inline-block; margin-top:-2px;}
+.m_login .logoTips .ico2{ background:url(../images/w_hjy/logo_tips_ico2.png) no-repeat; width:6px; height:12px; position:absolute; top:9px; right:-6px;}
+.m_login .logoCaseTab{ position:absolute; top:10px; right:10px; display:block; width:52px; height:52px; background:url(../images/w_hjy/logo_tab_bg.png) no-repeat 0px 0px; -webkit-transition:all .5s; -moz-transition:all .5s; transition:all .5s;}
+.m_login .logoCaseTab:hover{ background-image:url(../images/w_hjy/logo_tab_bg2.png);}
+.m_login  .CaseTab2{ position:absolute; background-position:-50px -54px;}
+
+.m_login .smLoginRect{ height:184px; margin:32px 0; margin-right:-97px;}
+.m_login .smLoginRect .wxLogin-img{ float:left; width:125px; height:125px; margin-top:40px; margin-left:20px; -webkit-transition:all .5s; -moz-transition:all .5s; transition:all .5s; background: url(../images/w_hjy/loading1.gif) no-repeat center center; position:relative;}
+.m_login .smLoginRect .wxLogin-img .code-img{ width:125px; height:125px; padding:1px; background:#fff;}
+.m_login .smLoginRect .wxLoign-tips-img{ float:left; margin-left:30px; -webkit-transition:all .5s; -moz-transition:all .5s; transition:all .5s;}
+.m_login .no-tips .wxLoign-tips-img{ display:none;}
+.m_login .no-tips .wxLogin-img{ margin-left:97px; }
+.m_login .no-tips .wxLogin-img span.wx_bg{ position:absolute; top:-26px; left:-34px;  background: url(../images/w_hjy/invalid-rectbg.png) no-repeat; width:194px; height:181px;}
+.m_login .sm-text-tips{  color:#898989; line-height:27px; font-weight:bold;}
+.m_login .sm-text-tips a{ color:#15ae4d; margin:0 5px;}
+
+.m_login .sm-invalid{ height:184px;margin:32px 0; overflow:hidden; zoom:1;}
+.m_login .sm-invalid .invalid-rect{  width:194px; height:181px; background: url(../images/w_hjy/invalid-rectbg.png) no-repeat; margin:0 auto; position:relative;}
+.m_login .sm-invalid .wxLogin-img{ opacity:0.2; background:#fff; padding:1px; position:absolute; top:26px; left:34px;}
+.m_login .sm-invalid .tips{ position:absolute; top:54px; width:100%; text-align:center; font-size:14px; color:#fff; left:0px;}
+.m_login .sm-invalid .invalid-rect a{ position:absolute; display:block; width:110px; height:32px; line-height:32px; font-size:14px; color:#fff; text-align:center; top:90px; left:42px; background:#15ae4d; text-decoration:none; border-radius:3px;}
+
+.m_login .sm-finish .finish-rect{ margin-top:32px;color:#888;}
+.m_login .sm-finish .finish-rect .txt{ font-size:32px; color:#fff; padding:15px 0 40px 0;}
+.m_login .sm-finish .finish-rect a{ color:#15ae4d;}
